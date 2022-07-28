@@ -64,11 +64,29 @@ hr{
   margin: auto;
 }
 
-.list-inside li{
+.align-center{
+  text-align: center;
+}
+
+.list-inside{
   list-style-position: inside;
 }
 
-a {
+.list-item{
+  text-align: left;
+}
+
+ul{
+  display: table;
+  margin: 0 auto;
+}
+
+ol{
+  display: table;
+  margin: 0 auto;
+}
+
+a{
   font-family: Helvetica, sans-serif;
   font-size: 16px;
 }
