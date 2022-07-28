@@ -18,7 +18,7 @@ h2{
 }
 
 h3{
-  color: #153243;
+  color: #284B63;
   font-size: 30px;
   text-align: center;
 }
@@ -26,26 +26,45 @@ h3{
 main{
   background-color: #EEF0EB;
   text-align: center;
-  color: #344827;
+  color: #000000;
+}
+
+article{
+  border: 2px solid #284B63;
+}
+
+section{
+  border: 2px solid #B4B8AB;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 footer{
   background-color: #284B63;
   text-align: center;
   color: #ffffff;
+  font-size: 20px;
 }
 
 p{
   font-size: 16px;
 }
 
+hr{
+  height: 4px;
+  border: 2px solid #B4B8AB;
+  background-color: #B4B8AB;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
-.wrapper {
+.wrapper{
   width: 500px;
   margin: auto;
 }
 
-.list-inside li {
+.list-inside li{
   list-style-position: inside;
 }
 
@@ -54,7 +73,7 @@ a {
   font-size: 16px;
 }
 
-a:link    { color: #736372; }
-a:visited { color: #AAC0AA; }
-a:hover   { color: #DCEED1; }
-a:active  { color: #DCEED1; }
+a:link    { color: #284B63; }
+a:visited { color: #000000; }
+a:hover   { color: #B4B8AB; }
+a:active  { color: #F4F9E9; }
